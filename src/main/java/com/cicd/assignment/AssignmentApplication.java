@@ -13,10 +13,11 @@ public class AssignmentApplication {
 		SpringApplication.run(AssignmentApplication.class, args);
 	}
 
-	@GetMapping("/guzal")
-	public String index() {
-		return "hello!";
+	@GetMapping("/sander")
+	public String sanderString() {
+		return "here there be dragons!";
 	}
+
     @GetMapping("/")
 	public String index() {
 		return "Greetings from CICD!";
